@@ -1,52 +1,49 @@
-<!doctype html>
+body {
+	background-color: blue;
+}
 
-<html>
-  <head>
-    <link rel="stylesheet" href="lib/style.css">
-    <script src="lib/script.js" >
-    </script>
-    <script type="text/javascript">
-    function call(id, value){
-        addSymvol(id, value);
-      }
-    </script>
-    
-  </head>
+	}
+.calk {
+	width: 300px;
+	height: 400px;
+	position: relative;
+	padding: 2%;
+	background-color: green;
+}
+.inputUp {
 
-  <body>
-   <div class="main">
-	<div class="calk">
-		<div class="input">
-			<input type="text" size="40" id="label" >
-		</div>
-		<div class="bottoms">
-		<div class="rov">
-			<button class="bottom" value="7" onclick="call('label', 7)">7</button>
-			<button class="bottom" value="8" onclick="call('label', 8)">8</button>
-      <button class="bottom" value="9" onclick="call('label', 9)">9</button>
-      <button class="bottom" value="/" onclick="call('label', /)">/</button>
-		</div>
-		<div class="rov">
-			<button class="bottom" value="4" onclick="call('label', 4)">4</button>
-      <button class="bottom" value="5" onclick="call('label', 5)">5</button>
-      <button class="bottom" value="6" onclick="call('label', 6)">6</button>
-      <button class="bottom" value="*" onclick="call('label', *)">*</button>
-		</div>
-		<div class="rov">
-			<button class="bottom" value="1" onclick="call('label', 1)">1</button>
-      <button class="bottom" value="2" onclick="call('label', 2)">2</button>
-      <button class="bottom" value="3" onclick="call('label', 3)">3</button>
-      <button class="bottom" value="-" onclick="call('label', -)">-</button>
-		</div>
-		<div class="rov">
-      <button class="bottom" value="0" onclick="call('label', 0)">0</button>
-      <button class="bottom" value="." onclick="call('label', '.')">.</button>
-      <button class="bottom" value="=" onclick="call('label',= )">=</button>
-      <button class="bottom" value="+" onclick="plus('label')">+</button>
-		</div>
-		</div>
-	</div>
-	
-</div>
-  </body>
-</html>
+	width: 290px;
+	height: 30px;
+  text-align: left;
+}
+.inputDown {
+  text-align: right;
+	width: 290px;
+	height: 40px;
+}
+.rov {
+	width: 100%;
+	height: 20%;
+	border: 2px;
+	background-color: yellow;
+}
+.bottoms {
+	padding-top: 10px;
+	height: 100%;
+}
+.bottom {
+
+	text-align: center;
+	display: inline-block;
+ 	width: 24%;
+ 	height: 100%;
+  background-color: yellow; 
+
+
+}
+
+
+
+
+
+
